@@ -1,0 +1,22 @@
+{
+  "name": "app_chat",
+  "version": "1.0.0",
+  "description": "Ting Ting app chat",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emlahieu98/app_chat.git"
+  },
+  "author": "Tran Hieu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emlahieu98/app_chat/issues"
+  },
+  "homepage": "https://github.com/emlahieu98/app_chat#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
