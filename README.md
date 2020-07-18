@@ -1,1 +1,1 @@
-# app_chat
+# app_chat sử dụng NodeJs và MongoDB
