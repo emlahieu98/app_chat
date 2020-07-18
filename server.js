@@ -1,10 +1,12 @@
-const express = require('express');
-const app = require('express');
+import express from "express" ;
+const app = express();
 
-const hostname = 'localhost';
+const HOSTNAME = 'localhost';
 const PORT = 3000;
+app.get("/hello", (req, res) => {
+  res.send('hel');
+});
 
-
-app.listen(PORT, hostname ,() => {
-  console.log(`Server started on ${hostname}: ${PORT}:`);
+app.listen(PORT, HOSTNAME ,() => {
+  console.log(`Server started on ${HOSTNAME}: ${PORT}`);
 });
